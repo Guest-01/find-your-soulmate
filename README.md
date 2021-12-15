@@ -5,4 +5,4 @@
 `Vue3`를 사용해 만들었습니다.
 
 ### Screenshot
-![homepage](./screenshot.jpg)
+![homepage](https://raw.githubusercontent.com/Guest-01/find-your-soulmate/dev/screenshot.JPG)
