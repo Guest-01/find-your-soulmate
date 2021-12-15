@@ -5,9 +5,9 @@
   >
     <img :src="mate.picture.large" alt="Portrait" class="border-2 rounded-full" />
     <div class="flex flex-col justify-center ml-2">
-      <span class="font-bold text-lg">{{ fullName }}</span>
+      <span class="font-bold text-xl">{{ fullName }}</span>
       <span>{{ dob }} ({{mate.dob.age}}살)</span>
-      <span class="text-sm">{{ mate.email }}</span>
+      <span class="text-sm underline">{{ mate.email }}</span>
       <span>{{ mate.location.country }}</span>
     </div>
   </div>

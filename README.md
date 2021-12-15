@@ -1,29 +1,8 @@
 # find-your-soulmate
 
-This template should help get you started developing with Vue 3 in Vite.
+> 세계의 어딘가에 있는 당신의 소울메이트를 찾아봅시다.
 
-## Recommended IDE Setup
+`Vue3`를 사용해 만들었습니다.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Screenshot
+![homepage](./screenshot.jpg)

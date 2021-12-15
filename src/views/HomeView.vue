@@ -1,5 +1,5 @@
 <template>
-  <main class="h-screen bg-gray-50 px-4 py-3 space-y-6">
+  <main class="h-screen bg-gray-50 px-4 py-3 space-y-6 font-['Pretendard']">
     <div class="flex flex-col items-center space-y-2">
       <TheInput @inputClick="getMate" />
       <MateInfo v-if="mate" :mate="mate" />
@@ -27,8 +27,9 @@ export default {
     const mate = ref(null);
 
     const getMate = async (userInput) => {
+      console.log(userInput)
       try {
-        const res = await fetch('https://randomuser.me/api')
+        const res = await fetch(`https://randomuser.me/api?seed=${userInput}`)
         const data = await res.json();
         mate.value = data.results[0]
         console.log(mate.value);
